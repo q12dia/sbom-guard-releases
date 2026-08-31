@@ -1,7 +1,7 @@
 {
-  "version": "1.0",
-  "release_date": "2026-06-30",
+  "version": "1.1",
+  "release_date": "2026-09-01",
   "download_url": "",
-  "sha256": "",
-  "notes": "初始版本"
+  "sha256": "7f5d5cf3308369f872647355e936c3cf4c81fb3d256ecd41640a74c60999a92a",
+  "notes": "新增 Excel 弱點報告匯出與 CISA KEV 標記；多項弱點比對準確度與安全性改善。更新包請洽廠商索取。"
 }
