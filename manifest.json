@@ -1,7 +1,7 @@
 {
-  "version": "1.4.0",
-  "release_date": "2026-10-15",
+  "version": "1.4.1",
+  "release_date": "2026-10-24",
   "download_url": "",
-  "sha256": "ea6596bb760d3ef59f55f8b1d6ee5e8aeccc2a85f0ddac1a302173b09832a6ec",
-  "notes": "CI/CD 安檢門（建置時自動檢查 SBOM，有已遭利用漏洞即擋下）、SBOM 體檢（依 CISA 2026 與 BSI TR-03183-2）、完整欄位的 SBOM 下載（預設不含漏洞）、CSAF 2.0／VEX 匯出、產品可見範圍（依產品類別限制帳號可見的產品）。適用於 v1.3.1。更新包請洽 michael.sun@gftsecurity.com"
+  "sha256": "f7cf24f7ac116eb28e07abf8902e3bc5fd73fd3dc3aaf14c5a49a5909116cf93",
+  "notes": "韌體分析準確度：原廠韌體從檔案內容辨識元件、Linux kernel 漏洞依韌體內容判斷適用性（可一鍵標記）、NVD 查詢失敗或不完整時標示並重試；漏洞來源標示 GitHub Advisory（GHSA）；OpenWrt 掃描加速與進度顯示；重新掃描改為更新原紀錄；API Key 遮罩。更新後請重新掃描含 Linux kernel 的產品。適用於 v1.4.0。更新包請洽 michael.sun@gftsecurity.com"
 }
