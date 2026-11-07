@@ -1,7 +1,7 @@
 {
-  "version": "1.4.1",
-  "release_date": "2026-10-24",
+  "version": "1.5.0",
+  "release_date": "2026-11-07",
   "download_url": "",
-  "sha256": "f7cf24f7ac116eb28e07abf8902e3bc5fd73fd3dc3aaf14c5a49a5909116cf93",
-  "notes": "韌體分析準確度：原廠韌體從檔案內容辨識元件、Linux kernel 漏洞依韌體內容判斷適用性（可一鍵標記）、NVD 查詢失敗或不完整時標示並重試；漏洞來源標示 GitHub Advisory（GHSA）；OpenWrt 掃描加速與進度顯示；重新掃描改為更新原紀錄；API Key 遮罩。更新後請重新掃描含 Linux kernel 的產品。適用於 v1.4.0。更新包請洽 michael.sun@gftsecurity.com"
+  "sha256": "748719c126e46f5e956c2a51ade63f20db8d56b3b358f52710c9c6939dc3d5a0",
+  "notes": "本機漏洞資料庫（NVD、OSV 每日更新，比對大幅加速）；韌體安全健檢與更多韌體格式；漏洞適用性判斷與可信度標示；供應商判定、適用條件提示、VEX 匯入；給工程師的摘要、EPSS、停止維護提示、產品風險雷達；SBOM 批次上傳；AD 登入、密碼政策、Proxy、備份加密、更新包簽章；多項比對準確度與安全性改善。適用於 v1.4.1，需至少 4 GB 可用空間。更新包請洽 michael.sun@gftsecurity.com"
 }
